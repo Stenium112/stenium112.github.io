@@ -3,6 +3,6 @@
   border: 5px solid grey;
   border-radius: 25px;
   padding: 10px;
-  min-height: 10px;
-  max-length: 200px;
+  max-height: 100px;
+  max-width: 200px;
 }
