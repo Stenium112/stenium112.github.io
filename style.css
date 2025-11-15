@@ -2,4 +2,6 @@
   background-color: white;
   border: 10px solid grey;
   border-radius: 25px;
+  padding: 20px;
+  min-height: 50px;
 }
