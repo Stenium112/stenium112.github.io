@@ -1,0 +1,22 @@
+<!-- the README.md but in html and js -->
+<!doctype html>
+<html>
+<head>
+  <meta charset="UTF-8" />
+  <title>Stenium112 Utilities ! | README</title>
+  <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+</head>
+<body>
+
+  <div id="readme"></div>
+
+  <script>
+    fetch("https://raw.githubusercontent.com/Stenium112/stenium112.github.io/main/README.md")
+      .then(res => res.text())
+      .then(md => {
+        document.getElementById("readme").innerHTML = marked.parse(md);
+      });
+  </script>
+
+</body>
+</html>
