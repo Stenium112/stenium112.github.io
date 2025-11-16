@@ -2,7 +2,18 @@
   display: flex;
   background-color: lightgray;
   border-bottom: 1px solid lightgray;
-  border-radius: 5px;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+  padding: 10px 10px;
+  justify-content: space-between;
+}
+
+#subheader {
+  display: flex;
+  background-color: white;
+  border-bottom: 1px solid lightgray;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
   padding: 10px 10px;
   justify-content: space-between;
 }
