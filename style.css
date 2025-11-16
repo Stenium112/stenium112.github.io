@@ -9,7 +9,7 @@
 
 #subheader {
   position: relative;
-  top: 5px;
+  top: -5px;
   display: flex;
   background-color: white;
   border: 5px solid lightgray;
