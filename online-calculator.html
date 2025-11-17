@@ -5,7 +5,8 @@
     <meta name="viewport" content="width=device-width" />
     <title>Stenium112 utilities !</title>
     <link rel="shortcut icon" href="/favicon.ico?" type="image/x-icon" />
-	<link rel="stylesheet" href="style.css" />
+	  <link rel="stylesheet" href="style.css" />
+    <script src="online-calculator.js"></script>
   </head>
 
   <body>
@@ -15,11 +16,11 @@
         <button onclick="location.href = '/README.html'">README</button>
   	</div>
 		<div id="subheader">
-			<button>Numworks</button>
+			<button id="numworkbtn" onclick="showNumworkSimu()">Numworks</button>
       <button>other</button>
       <button>other2</button>
 		</div>
 
-    <iframe id="numworksemu" src="https://www.numworks.com/fr/simulateur/" width="600" height="400" allow="fullscreen"></iframe>
+    <iframe id="numworksimu" src="https://www.numworks.com/fr/simulateur/" width="600" height="400" allow="fullscreen"></iframe>
   </body>
 </html>
