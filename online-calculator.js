@@ -1,8 +1,8 @@
 document.addEventListener("DOMContentLoaded", function() {
-  document.getElementById("numworksimu").style.visibility = "hidden"
+  document.getElementById("NumworksSimu").style.visibility = "hidden"
 
     function showCalculatorSimu(id) {
-        if (id = NumworksSimu ) {
+        if (id == NumworksSimu ) {
           document.getElementById("NumworksSimu").style.visibility = "visible"
       }
     }   
