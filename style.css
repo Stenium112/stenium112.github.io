@@ -20,7 +20,9 @@
 }
 
 iframe.CalculatorSimulator {
-  justify-self: center;
+  position: relative;
+  align-content: center;
+  align-self: center;
   display: flex;
   width: 600px;
   height: 400px;
