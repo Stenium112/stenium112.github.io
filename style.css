@@ -31,6 +31,6 @@
   background-color: white;
 }
 
-text {
+p, text, button {
   font-family: sans-serif;
 }
