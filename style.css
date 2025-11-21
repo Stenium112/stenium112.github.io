@@ -1,13 +1,14 @@
 #header {
   display: flex;
-  max-width: fit-content(110%);
+  width: fit-content(110%);
+  left: 50%;
+  right: 50%;
   background-color: lightgray;
   border: 5px solid lightgray;
   border-radius: 5px;
   padding: 10px;
   margin: 10px;
   justify-content: center;
-  align-self: center;
 }
 
 #subheader {
